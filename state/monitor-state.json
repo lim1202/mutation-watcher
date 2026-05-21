@@ -1,26 +1,26 @@
 {
   "version": "1.0",
-  "updatedAt": "2026-05-21T10:40:48.954Z",
+  "updatedAt": "2026-05-21T14:13:07.596Z",
   "targets": {
     "crimsonwitch-zenless": {
       "id": "crimsonwitch-zenless",
-      "lastCheck": "2026-05-21T10:40:48.952Z",
+      "lastCheck": "2026-05-21T14:13:07.589Z",
       "lastHash": "fa57c7f52bd8e6b2ca9add4386cae85e66e5ad0c8842a6a538a8851838f71eee",
       "lastContent": "[\n  {\n    \"title\": \"ZZZ28HERO\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Zenless_Zone_Zero#ZZZ28HERO\",\n    \"description\": \"Polychrome x60 — Denny x6666\",\n    \"pubDate\": \"Tue, 28 Apr 2026 11:49:48 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Zenless_Zone_Zero\"\n  },\n  {\n    \"title\": \"ZENLESSGIFT\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Zenless_Zone_Zero#ZENLESSGIFT\",\n    \"description\": \"Polychrome x50 — Official Investigator Log x2 — W-Engine Power Supply x3 — Bangboo Algorithm Module x1\",\n    \"pubDate\": \"Thu, 04 Jul 2024 00:00:00 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Zenless_Zone_Zero\"\n  }\n]",
       "lastSuccess": true,
       "lastError": null,
-      "checkCount": 1166,
+      "checkCount": 1167,
       "changeCount": 11,
       "lastChangeAt": "2026-05-10T21:54:51.573Z"
     },
     "crimsonwitch-genshin": {
       "id": "crimsonwitch-genshin",
-      "lastCheck": "2026-05-21T10:40:48.950Z",
+      "lastCheck": "2026-05-21T14:13:07.596Z",
       "lastHash": "961216abf83df5e2655f97bf7e43ccd8d5ea996073ad6d2458f99217716bed70",
       "lastContent": "[\n  {\n    \"title\": \"LIVESTREAM CODE 1\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Genshin_Impact#LIVESTREAM CODE 1\",\n    \"description\": \"Primogem x100 — Mystic Enhancement Ore x10\",\n    \"pubDate\": \"Fri, 19 Jun 2026 12:00:00 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Genshin_Impact\"\n  },\n  {\n    \"title\": \"LIVESTREAM CODE 2\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Genshin_Impact#LIVESTREAM CODE 2\",\n    \"description\": \"Primogem x100 — Hero's Wit x5\",\n    \"pubDate\": \"Fri, 19 Jun 2026 12:00:00 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Genshin_Impact\"\n  },\n  {\n    \"title\": \"LIVESTREAM CODE 3\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Genshin_Impact#LIVESTREAM CODE 3\",\n    \"description\": \"Primogem x100 — Mora x50000\",\n    \"pubDate\": \"Fri, 19 Jun 2026 12:00:00 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Genshin_Impact\"\n  },\n  {\n    \"title\": \"OHOHONICOLE\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Genshin_Impact#OHOHONICOLE\",\n    \"description\": \"Primogem x30 — Mora x20000 — Tattered Warrant x3\",\n    \"pubDate\": \"Tue, 19 May 2026 10:34:14 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Genshin_Impact\"\n  },\n  {\n    \"title\": \"MageNicolesPuzzle\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Genshin_Impact#MageNicolesPuzzle\",\n    \"description\": \"Primogem x30 — Midsommar Torte x1 — Fruit Tandem Turnovers x1 — Chenyu Adeptea x5\",\n    \"pubDate\": \"Sat, 16 May 2026 14:29:01 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Genshin_Impact\"\n  },\n  {\n    \"title\": \"PFY1S40I88T9\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Genshin_Impact#PFY1S40I88T9\",\n    \"description\": \"Primogem x60 — Adventurer's Experience x5\",\n    \"pubDate\": \"Fri, 08 May 2026 17:06:50 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Genshin_Impact\"\n  },\n  {\n    \"title\": \"PSCA8NL4ZSPD\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Genshin_Impact#PSCA8NL4ZSPD\",\n    \"description\": \"Primogem x60 — Adventurer's Experience x5\",\n    \"pubDate\": \"Mon, 30 Mar 2026 14:37:50 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Genshin_Impact\"\n  }\n]",
       "lastSuccess": true,
       "lastError": null,
-      "checkCount": 1166,
+      "checkCount": 1167,
       "changeCount": 25,
       "lastChangeAt": "2026-05-20T04:44:48.074Z"
     }
