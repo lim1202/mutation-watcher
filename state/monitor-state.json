@@ -1,26 +1,26 @@
 {
   "version": "1.0",
-  "updatedAt": "2026-05-29T04:52:00.188Z",
+  "updatedAt": "2026-05-29T08:40:19.610Z",
   "targets": {
     "crimsonwitch-zenless": {
       "id": "crimsonwitch-zenless",
-      "lastCheck": "2026-05-29T04:52:00.186Z",
+      "lastCheck": "2026-05-29T08:40:19.610Z",
       "lastHash": "fa57c7f52bd8e6b2ca9add4386cae85e66e5ad0c8842a6a538a8851838f71eee",
       "lastContent": "[\n  {\n    \"title\": \"ZZZ28HERO\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Zenless_Zone_Zero#ZZZ28HERO\",\n    \"description\": \"Polychrome x60 — Denny x6666\",\n    \"pubDate\": \"Tue, 28 Apr 2026 11:49:48 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Zenless_Zone_Zero\"\n  },\n  {\n    \"title\": \"ZENLESSGIFT\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Zenless_Zone_Zero#ZENLESSGIFT\",\n    \"description\": \"Polychrome x50 — Official Investigator Log x2 — W-Engine Power Supply x3 — Bangboo Algorithm Module x1\",\n    \"pubDate\": \"Thu, 04 Jul 2024 00:00:00 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Zenless_Zone_Zero\"\n  }\n]",
       "lastSuccess": true,
       "lastError": null,
-      "checkCount": 1243,
+      "checkCount": 1244,
       "changeCount": 11,
       "lastChangeAt": "2026-05-10T21:54:51.573Z"
     },
     "crimsonwitch-genshin": {
       "id": "crimsonwitch-genshin",
-      "lastCheck": "2026-05-29T04:52:00.184Z",
+      "lastCheck": "2026-05-29T08:40:19.575Z",
       "lastHash": "552ff75971965edd37f4b4e17b45228c03ee387388ac694871dcefb4cccd7074",
       "lastContent": "[\n  {\n    \"title\": \"CODENAMEK\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Genshin_Impact#CODENAMEK\",\n    \"description\": \"Masked Ball Invitation Letter x1\",\n    \"pubDate\": \"Wed, 27 May 2026 10:12:12 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Genshin_Impact\"\n  },\n  {\n    \"title\": \"YMYD76U85Z1U\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Genshin_Impact#YMYD76U85Z1U\",\n    \"description\": \"Mora x10000 — Adventurer's Experience x10 — Fine Enhancement Ore x5 — Jueyun Chili Chicken x5 — Stir-Fried Fish Noodles x5\",\n    \"pubDate\": \"Tue, 26 May 2026 08:21:57 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Genshin_Impact\"\n  },\n  {\n    \"title\": \"NMI20MAJGIBP\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Genshin_Impact#NMI20MAJGIBP\",\n    \"description\": \"Primogem x20 — Geode of Replication x160\",\n    \"pubDate\": \"Sat, 23 May 2026 22:33:39 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Genshin_Impact\"\n  },\n  {\n    \"title\": \"OHOHONICOLE\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Genshin_Impact#OHOHONICOLE\",\n    \"description\": \"Primogem x30 — Mora x20000 — Tattered Warrant x3\",\n    \"pubDate\": \"Tue, 19 May 2026 10:34:14 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Genshin_Impact\"\n  },\n  {\n    \"title\": \"MageNicolesPuzzle\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Genshin_Impact#MageNicolesPuzzle\",\n    \"description\": \"Primogem x30 — Midsommar Torte x1 — Fruit Tandem Turnovers x1 — Chenyu Adeptea x5\",\n    \"pubDate\": \"Sat, 16 May 2026 14:29:01 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Genshin_Impact\"\n  },\n  {\n    \"title\": \"PFY1S40I88T9\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Genshin_Impact#PFY1S40I88T9\",\n    \"description\": \"Primogem x60 — Adventurer's Experience x5\",\n    \"pubDate\": \"Fri, 08 May 2026 17:06:50 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Genshin_Impact\"\n  },\n  {\n    \"title\": \"PSCA8NL4ZSPD\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Genshin_Impact#PSCA8NL4ZSPD\",\n    \"description\": \"Primogem x60 — Adventurer's Experience x5\",\n    \"pubDate\": \"Mon, 30 Mar 2026 14:37:50 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Genshin_Impact\"\n  }\n]",
       "lastSuccess": true,
       "lastError": null,
-      "checkCount": 1243,
+      "checkCount": 1244,
       "changeCount": 29,
       "lastChangeAt": "2026-05-27T22:16:24.436Z"
     }
