@@ -1,26 +1,26 @@
 {
   "version": "1.0",
-  "updatedAt": "2026-06-07T20:44:58.280Z",
+  "updatedAt": "2026-06-07T22:01:06.182Z",
   "targets": {
     "crimsonwitch-zenless": {
       "id": "crimsonwitch-zenless",
-      "lastCheck": "2026-06-07T20:44:58.278Z",
+      "lastCheck": "2026-06-07T22:01:06.177Z",
       "lastHash": "8875f0acaaf9f6950924eda68a8bffa07761d7de07e07978497c2a089b200c15",
       "lastContent": "[\n  {\n    \"title\": \"ZZZ30BANGBOO\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Zenless_Zone_Zero#ZZZ30BANGBOO\",\n    \"description\": \"Polychrome x60 — Denny x6666\",\n    \"pubDate\": \"Sat, 06 Jun 2026 19:16:55 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Zenless_Zone_Zero\"\n  },\n  {\n    \"title\": \"BEYONDTHECLOUDS\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Zenless_Zone_Zero#BEYONDTHECLOUDS\",\n    \"description\": \"Polychrome x300 — Senior Investigator Log x2 — W-Engine Energy Module x3 — Denny x30000\",\n    \"pubDate\": \"Sat, 06 Jun 2026 11:30:00 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Zenless_Zone_Zero\"\n  },\n  {\n    \"title\": \"ZZZ28HERO\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Zenless_Zone_Zero#ZZZ28HERO\",\n    \"description\": \"Polychrome x60 — Denny x6666\",\n    \"pubDate\": \"Tue, 28 Apr 2026 11:49:48 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Zenless_Zone_Zero\"\n  },\n  {\n    \"title\": \"ZENLESSGIFT\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Zenless_Zone_Zero#ZENLESSGIFT\",\n    \"description\": \"Polychrome x50 — Official Investigator Log x2 — W-Engine Power Supply x3 — Bangboo Algorithm Module x1\",\n    \"pubDate\": \"Thu, 04 Jul 2024 00:00:00 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Zenless_Zone_Zero\"\n  }\n]",
       "lastSuccess": true,
       "lastError": null,
-      "checkCount": 1333,
+      "checkCount": 1334,
       "changeCount": 13,
       "lastChangeAt": "2026-06-06T20:07:03.804Z"
     },
     "crimsonwitch-genshin": {
       "id": "crimsonwitch-genshin",
-      "lastCheck": "2026-06-07T20:44:58.275Z",
+      "lastCheck": "2026-06-07T22:01:06.180Z",
       "lastHash": "c68142c2a9da34d2de47d3354417915ed76c6b5a0bb79f438a85676a08eac15a",
       "lastContent": "[\n  {\n    \"title\": \"CODENAMEK\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Genshin_Impact#CODENAMEK\",\n    \"description\": \"Recipe: Meat-Lover's Feast x1 — Recipe: Nine-Fruit Nectar x1 — Recipe: Bubblemilk Pie x1 — Invitation Letter For a Ball Now Past x1\",\n    \"pubDate\": \"Wed, 27 May 2026 10:12:12 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Genshin_Impact\"\n  },\n  {\n    \"title\": \"YMYD76U85Z1U\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Genshin_Impact#YMYD76U85Z1U\",\n    \"description\": \"Mora x10000 — Adventurer's Experience x10 — Fine Enhancement Ore x5 — Jueyun Chili Chicken x5 — Stir-Fried Fish Noodles x5\",\n    \"pubDate\": \"Tue, 26 May 2026 08:21:57 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Genshin_Impact\"\n  },\n  {\n    \"title\": \"NMI20MAJGIBP\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Genshin_Impact#NMI20MAJGIBP\",\n    \"description\": \"Primogem x20 — Geode of Replication x160\",\n    \"pubDate\": \"Sat, 23 May 2026 22:33:39 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Genshin_Impact\"\n  },\n  {\n    \"title\": \"MageNicolesPuzzle\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Genshin_Impact#MageNicolesPuzzle\",\n    \"description\": \"Primogem x30 — Midsommar Torte x1 — Fruit Tandem Turnovers x1 — Chenyu Adeptea x5\",\n    \"pubDate\": \"Sat, 16 May 2026 14:29:01 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Genshin_Impact\"\n  },\n  {\n    \"title\": \"PFY1S40I88T9\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Genshin_Impact#PFY1S40I88T9\",\n    \"description\": \"Primogem x60 — Adventurer's Experience x5\",\n    \"pubDate\": \"Fri, 08 May 2026 17:06:50 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Genshin_Impact\"\n  },\n  {\n    \"title\": \"PSCA8NL4ZSPD\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Genshin_Impact#PSCA8NL4ZSPD\",\n    \"description\": \"Primogem x60 — Adventurer's Experience x5\",\n    \"pubDate\": \"Mon, 30 Mar 2026 14:37:50 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Genshin_Impact\"\n  }\n]",
       "lastSuccess": true,
       "lastError": null,
-      "checkCount": 1333,
+      "checkCount": 1334,
       "changeCount": 32,
       "lastChangeAt": "2026-06-07T05:05:38.264Z"
     }
