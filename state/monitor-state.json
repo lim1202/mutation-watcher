@@ -1,26 +1,26 @@
 {
   "version": "1.0",
-  "updatedAt": "2026-06-16T21:24:16.853Z",
+  "updatedAt": "2026-06-16T23:01:55.437Z",
   "targets": {
     "crimsonwitch-zenless": {
       "id": "crimsonwitch-zenless",
-      "lastCheck": "2026-06-16T21:24:16.852Z",
+      "lastCheck": "2026-06-16T23:01:55.436Z",
       "lastHash": "395b338e9b2ca336bdec8030502240e9a603019cc448e8b9d514e33631876e11",
       "lastContent": "[\n  {\n    \"title\": \"ZZZSUSHIRO\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Zenless_Zone_Zero#ZZZSUSHIRO\",\n    \"description\": \"Senior Investigator Log x3 — Denny x30000\",\n    \"pubDate\": \"Thu, 11 Jun 2026 13:58:19 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Zenless_Zone_Zero\"\n  },\n  {\n    \"title\": \"ZZZSTEAM\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Zenless_Zone_Zero#ZZZSTEAM\",\n    \"description\": \"Polychrome x60 — Senior Investigator Log x2 — W-Engine Energy Module x2 — Denny x6666\",\n    \"pubDate\": \"Thu, 11 Jun 2026 13:32:17 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Zenless_Zone_Zero\"\n  },\n  {\n    \"title\": \"ROSCAELIFER0617\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Zenless_Zone_Zero#ROSCAELIFER0617\",\n    \"description\": \"Polychrome x30\",\n    \"pubDate\": \"Tue, 09 Jun 2026 04:14:46 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Zenless_Zone_Zero\"\n  },\n  {\n    \"title\": \"ZZZSEASON3\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Zenless_Zone_Zero#ZZZSEASON3\",\n    \"description\": \"Polychrome x50\",\n    \"pubDate\": \"Tue, 09 Jun 2026 04:12:53 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Zenless_Zone_Zero\"\n  },\n  {\n    \"title\": \"ZZZ30BANGBOO\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Zenless_Zone_Zero#ZZZ30BANGBOO\",\n    \"description\": \"Polychrome x60 — Denny x6666\",\n    \"pubDate\": \"Sat, 06 Jun 2026 19:16:55 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Zenless_Zone_Zero\"\n  },\n  {\n    \"title\": \"ZZZ28HERO\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Zenless_Zone_Zero#ZZZ28HERO\",\n    \"description\": \"Polychrome x60 — Denny x6666\",\n    \"pubDate\": \"Tue, 28 Apr 2026 11:49:48 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Zenless_Zone_Zero\"\n  },\n  {\n    \"title\": \"ZENLESSGIFT\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Zenless_Zone_Zero#ZENLESSGIFT\",\n    \"description\": \"Polychrome x50 — Official Investigator Log x2 — W-Engine Power Supply x3 — Bangboo Algorithm Module x1\",\n    \"pubDate\": \"Thu, 04 Jul 2024 00:00:00 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Zenless_Zone_Zero\"\n  }\n]",
       "lastSuccess": true,
       "lastError": null,
-      "checkCount": 1406,
+      "checkCount": 1407,
       "changeCount": 15,
       "lastChangeAt": "2026-06-11T16:52:06.742Z"
     },
     "crimsonwitch-genshin": {
       "id": "crimsonwitch-genshin",
-      "lastCheck": "2026-06-16T21:24:16.845Z",
+      "lastCheck": "2026-06-16T23:01:55.413Z",
       "lastHash": "fc39133cb6d6fc86548970911f71214bf21fdf7a97942718e262fe0666bc6a7f",
       "lastContent": "[\n  {\n    \"title\": \"LCXGEA5SX65L\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Genshin_Impact#LCXGEA5SX65L\",\n    \"description\": \"Mora x10000 — Adventurer's Experience x10 — Fine Enhancement Ore x5 — Jueyun Chili Chicken x5 — Stir-Fried Fish Noodles x5\",\n    \"pubDate\": \"Wed, 10 Jun 2026 08:10:39 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Genshin_Impact\"\n  },\n  {\n    \"title\": \"CODENAMEK\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Genshin_Impact#CODENAMEK\",\n    \"description\": \"Recipe: Meat-Lover's Feast x1 — Recipe: Nine-Fruit Nectar x1 — Recipe: Bubblemilk Pie x1 — Invitation Letter For a Ball Now Past x1\",\n    \"pubDate\": \"Wed, 27 May 2026 10:12:12 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Genshin_Impact\"\n  },\n  {\n    \"title\": \"NMI20MAJGIBP\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Genshin_Impact#NMI20MAJGIBP\",\n    \"description\": \"Primogem x20 — Geode of Replication x160\",\n    \"pubDate\": \"Sat, 23 May 2026 22:33:39 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Genshin_Impact\"\n  },\n  {\n    \"title\": \"MageNicolesPuzzle\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Genshin_Impact#MageNicolesPuzzle\",\n    \"description\": \"Primogem x30 — Midsommar Torte x1 — Fruit Tandem Turnovers x1 — Chenyu Adeptea x5\",\n    \"pubDate\": \"Sat, 16 May 2026 14:29:01 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Genshin_Impact\"\n  },\n  {\n    \"title\": \"PFY1S40I88T9\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Genshin_Impact#PFY1S40I88T9\",\n    \"description\": \"Primogem x60 — Adventurer's Experience x5\",\n    \"pubDate\": \"Fri, 08 May 2026 17:06:50 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Genshin_Impact\"\n  }\n]",
       "lastSuccess": true,
       "lastError": null,
-      "checkCount": 1406,
+      "checkCount": 1407,
       "changeCount": 34,
       "lastChangeAt": "2026-06-10T10:39:26.596Z"
     }
