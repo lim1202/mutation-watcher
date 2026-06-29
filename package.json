@@ -29,7 +29,7 @@
     "commander": "^12.1.0",
     "crypto-js": "^4.2.0",
     "diff": "^8.0.3",
-    "js-yaml": "^4.1.0",
+    "js-yaml": "^4.2.0",
     "jsonpath-plus": "^10.3.0",
     "p-limit": "^6.1.0",
     "picocolors": "^1.1.1",
