@@ -1,26 +1,26 @@
 {
   "version": "1.0",
-  "updatedAt": "2026-07-19T23:27:52.339Z",
+  "updatedAt": "2026-07-20T01:05:15.702Z",
   "targets": {
     "crimsonwitch-zenless": {
       "id": "crimsonwitch-zenless",
-      "lastCheck": "2026-07-19T23:27:52.334Z",
+      "lastCheck": "2026-07-20T01:05:15.701Z",
       "lastHash": "618bcb290936ecef25d33f41224d11aa0b4f75f896716326cde298405154a1f5",
       "lastContent": "[\n  {\n    \"title\": \"ZZZ2YEAR\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Zenless_Zone_Zero#ZZZ2YEAR\",\n    \"description\": \"Polychrome x50\",\n    \"pubDate\": \"Sat, 18 Jul 2026 12:05:04 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Zenless_Zone_Zero\"\n  },\n  {\n    \"title\": \"ZZZ31REMIELLE\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Zenless_Zone_Zero#ZZZ31REMIELLE\",\n    \"description\": \"Polychrome x60 — Denny x6666\",\n    \"pubDate\": \"Sat, 18 Jul 2026 02:42:03 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Zenless_Zone_Zero\"\n  },\n  {\n    \"title\": \"ZZZY2ANNIV\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Zenless_Zone_Zero#ZZZY2ANNIV\",\n    \"description\": \"Polychrome x300 — Senior Investigator Log x2 — W-Engine Energy Module x3 — Denny x30000\",\n    \"pubDate\": \"Fri, 17 Jul 2026 11:30:00 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Zenless_Zone_Zero\"\n  },\n  {\n    \"title\": \"CBW0884678\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Zenless_Zone_Zero#CBW0884678\",\n    \"description\": \"Denny x20000\",\n    \"pubDate\": \"Thu, 18 Jun 2026 22:52:57 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Zenless_Zone_Zero\"\n  },\n  {\n    \"title\": \"ZZZSUSHIRO\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Zenless_Zone_Zero#ZZZSUSHIRO\",\n    \"description\": \"Senior Investigator Log x3 — Denny x30000\",\n    \"pubDate\": \"Thu, 11 Jun 2026 13:58:19 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Zenless_Zone_Zero\"\n  },\n  {\n    \"title\": \"ZZZSTEAM\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Zenless_Zone_Zero#ZZZSTEAM\",\n    \"description\": \"Polychrome x60 — Senior Investigator Log x2 — W-Engine Energy Module x2 — Denny x6666\",\n    \"pubDate\": \"Thu, 11 Jun 2026 13:32:17 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Zenless_Zone_Zero\"\n  },\n  {\n    \"title\": \"ROSCAELIFER0617\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Zenless_Zone_Zero#ROSCAELIFER0617\",\n    \"description\": \"Polychrome x30\",\n    \"pubDate\": \"Tue, 09 Jun 2026 04:14:46 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Zenless_Zone_Zero\"\n  },\n  {\n    \"title\": \"ZZZSEASON3\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Zenless_Zone_Zero#ZZZSEASON3\",\n    \"description\": \"Polychrome x50\",\n    \"pubDate\": \"Tue, 09 Jun 2026 04:12:53 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Zenless_Zone_Zero\"\n  },\n  {\n    \"title\": \"ZZZ30BANGBOO\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Zenless_Zone_Zero#ZZZ30BANGBOO\",\n    \"description\": \"Polychrome x60 — Denny x6666\",\n    \"pubDate\": \"Sat, 06 Jun 2026 19:16:55 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Zenless_Zone_Zero\"\n  },\n  {\n    \"title\": \"ZENLESSGIFT\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Zenless_Zone_Zero#ZENLESSGIFT\",\n    \"description\": \"Polychrome x50 — Official Investigator Log x2 — W-Engine Power Supply x3 — Bangboo Algorithm Module x1\",\n    \"pubDate\": \"Thu, 04 Jul 2024 00:00:00 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Zenless_Zone_Zero\"\n  }\n]",
       "lastSuccess": true,
       "lastError": null,
-      "checkCount": 1772,
+      "checkCount": 1773,
       "changeCount": 19,
       "lastChangeAt": "2026-07-18T13:26:50.329Z"
     },
     "crimsonwitch-genshin": {
       "id": "crimsonwitch-genshin",
-      "lastCheck": "2026-07-19T23:27:52.337Z",
+      "lastCheck": "2026-07-20T01:05:15.672Z",
       "lastHash": "44fbaaff8cdf74ef7ed3ffec9ae7d1bbba1ad93b8b02d86371e6032ccfe1f944",
       "lastContent": "[\n  {\n    \"title\": \"EZSB8889C2BZ\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Genshin_Impact#EZSB8889C2BZ\",\n    \"description\": \"Mora x10000 — Adventurer's Experience x10 — Fine Enhancement Ore x5 — Jueyun Chili Chicken x5 — Stir-Fried Fish Noodles x5\",\n    \"pubDate\": \"Wed, 01 Jul 2026 09:33:55 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Genshin_Impact\"\n  },\n  {\n    \"title\": \"LEGEDILJKSGM\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Genshin_Impact#LEGEDILJKSGM\",\n    \"description\": \"Primogem x60 — Adventurer's Experience x5\",\n    \"pubDate\": \"Sun, 21 Jun 2026 13:44:03 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Genshin_Impact\"\n  },\n  {\n    \"title\": \"CODENAMEK\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Genshin_Impact#CODENAMEK\",\n    \"description\": \"Recipe: Meat-Lover's Feast x1 — Recipe: Nine-Fruit Nectar x1 — Recipe: Bubblemilk Pie x1 — Invitation Letter For a Ball Now Past x1\",\n    \"pubDate\": \"Wed, 27 May 2026 10:12:12 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Genshin_Impact\"\n  },\n  {\n    \"title\": \"PFY1S40I88T9\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Genshin_Impact#PFY1S40I88T9\",\n    \"description\": \"Primogem x60 — Adventurer's Experience x5\",\n    \"pubDate\": \"Fri, 08 May 2026 17:06:50 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Genshin_Impact\"\n  }\n]",
       "lastSuccess": true,
       "lastError": null,
-      "checkCount": 1772,
+      "checkCount": 1773,
       "changeCount": 40,
       "lastChangeAt": "2026-07-01T10:28:45.472Z"
     }
