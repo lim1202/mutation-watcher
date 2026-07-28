@@ -3,7 +3,7 @@ version: "1.0"
 targets:
   - id: "crimsonwitch-genshin"
     name: "Crimson Witch - Genshin Impact Codes"
-    url: "https://www.crimsonwitch.com/feeds/Genshin_Impact/RSS"
+    url: "https://www.crimsonwitch.com/codes/Genshin_Impact.txt"
     webUrl: "https://www.crimsonwitch.com/codes/Genshin_Impact"
     type: "rss"
     enabled: true
@@ -14,7 +14,7 @@ targets:
 
   - id: "crimsonwitch-zenless"
     name: "Crimson Witch - Zenless Zone Zero Codes"
-    url: "https://www.crimsonwitch.com/feeds/Zenless_Zone_Zero/RSS"
+    url: "https://www.crimsonwitch.com/codes/Zenless_Zone_Zero.txt"
     webUrl: "https://www.crimsonwitch.com/codes/Zenless_Zone_Zero"
     type: "rss"
     enabled: true
