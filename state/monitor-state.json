@@ -1,26 +1,26 @@
 {
   "version": "1.0",
-  "updatedAt": "2026-08-05T10:59:07.159Z",
+  "updatedAt": "2026-08-05T12:58:43.426Z",
   "targets": {
     "crimsonwitch-zenless": {
       "id": "crimsonwitch-zenless",
-      "lastCheck": "2026-08-05T10:59:07.159Z",
+      "lastCheck": "2026-08-05T12:58:43.408Z",
       "lastHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
       "lastContent": "[]",
       "lastSuccess": true,
       "lastError": null,
-      "checkCount": 1948,
+      "checkCount": 1949,
       "changeCount": 20,
       "lastChangeAt": "2026-07-28T15:16:46.018Z"
     },
     "crimsonwitch-genshin": {
       "id": "crimsonwitch-genshin",
-      "lastCheck": "2026-08-05T10:59:07.151Z",
+      "lastCheck": "2026-08-05T12:58:43.426Z",
       "lastHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
       "lastContent": "[]",
       "lastSuccess": true,
       "lastError": null,
-      "checkCount": 1948,
+      "checkCount": 1949,
       "changeCount": 41,
       "lastChangeAt": "2026-07-28T15:16:46.028Z"
     }
