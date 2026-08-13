@@ -1,6 +1,7 @@
 import type { NotificationChannel } from "../config/schema.js";
 import type { ChangeDetectionResult } from "../core/detector.js";
 import type { MonitorResult } from "../monitors/base.js";
+import { truncateDiffForNotification } from "../utils/diff.js";
 
 /**
  * Notification payload
@@ -103,8 +104,12 @@ export abstract class BaseNotifier<TConfig = unknown> {
       if (changeResult.diffText) {
         lines.push("");
         lines.push("```diff");
-        lines.push(changeResult.diffText.substring(0, 2000)); // Limit diff size
+        const { text, truncated } = truncateDiffForNotification(changeResult.diffText);
+        lines.push(text);
         lines.push("```");
+        if (truncated) {
+          lines.push(`⚠️ 变更较多，完整内容见：${linkUrl}`);
+        }
       }
     }
 

@@ -160,17 +160,42 @@ export function formatDiff(diffResult: DiffResult, contextLines = 3): string {
 }
 
 /**
+ * Trim a diff to a size that keeps notification messages readable, applying
+ * both a line limit and a character budget. Returns whether content was cut.
+ */
+export function truncateDiffForNotification(
+  diffText: string,
+  options: { maxLines?: number; maxChars?: number } = {}
+): { text: string; truncated: boolean } {
+  const maxLines = options.maxLines ?? 40;
+  const maxChars = options.maxChars ?? 800;
+
+  const lines = diffText.split("\n");
+  const lineLimited = lines.slice(0, maxLines);
+  let text = lineLimited.join("\n");
+  let truncated = lines.length > maxLines;
+
+  if (text.length > maxChars) {
+    text = text.slice(0, maxChars);
+    truncated = true;
+  }
+
+  return { text, truncated };
+}
+
+/**
  * Get a short summary of changes
  */
 export function getChangeSummary(diffResult: DiffResult): string {
   const parts: string[] = [];
 
-  if (diffResult.summary.added > 0) {
-    parts.push(`+${diffResult.summary.added} lines`);
-  }
-
+  // Match git diff style: removed lines come before added lines
   if (diffResult.summary.removed > 0) {
     parts.push(`-${diffResult.summary.removed} lines`);
+  }
+
+  if (diffResult.summary.added > 0) {
+    parts.push(`+${diffResult.summary.added} lines`);
   }
 
   if (parts.length === 0) {

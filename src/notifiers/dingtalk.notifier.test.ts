@@ -87,4 +87,27 @@ describe("DingTalkNotifier markdown", () => {
     expect(text).toContain("**Change Summary:**  \ncontent changed");
     expect(text).toContain("```diff\n- old line\n+ new line\n```");
   });
+
+  it("truncates oversized diffs and appends a full-content hint", async () => {
+    httpPost.mockResolvedValue({ data: { errcode: 0, errmsg: "ok" } });
+
+    const bigDiff = Array.from({ length: 50 }, (_, i) => `+ line ${i}`).join("\n");
+    const payload = makePayload({
+      hasChanges: true,
+      changeResult: {
+        hasChanges: true,
+        oldHash: "old",
+        newHash: "new",
+        changeSummary: "content changed",
+        diffText: bigDiff,
+      },
+    });
+
+    await makeNotifier().send(payload);
+
+    const text = sentMarkdownText();
+    expect(text).toContain("⚠️ 变更较多，完整内容见：https://example.com");
+    expect(text).toContain("+ line 39"); // last kept line
+    expect(text).not.toContain("+ line 49"); // tail was cut
+  });
 });
