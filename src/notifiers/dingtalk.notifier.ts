@@ -148,7 +148,7 @@ export class DingTalkNotifier extends BaseNotifier<DingTalkConfig> {
       msgtype: "markdown",
       markdown: {
         title,
-        text: `### ${title}\n\n${body}`,
+        text: this.renderMarkdown(`### ${title}\n\n${body}`),
       },
       at: this.buildAtConfig(),
     };
@@ -166,11 +166,34 @@ export class DingTalkNotifier extends BaseNotifier<DingTalkConfig> {
       msgtype: "actionCard",
       actionCard: {
         title,
-        text: `### ${title}\n\n${body}`,
+        text: this.renderMarkdown(`### ${title}\n\n${body}`),
         singleTitle: "View Details",
         singleURL: jumpUrl,
       },
     };
+  }
+
+  /**
+   * DingTalk markdown collapses a bare newline inside a paragraph into a
+   * space. Only CommonMark hard breaks (two trailing spaces before the
+   * newline) render as line breaks. Convert each soft break to a hard break,
+   * but leave the content of fenced code blocks untouched.
+   */
+  private renderMarkdown(text: string): string {
+    const lines = text.split("\n");
+    const rendered: string[] = [];
+    let inCodeBlock = false;
+
+    for (const line of lines) {
+      if (/^```/.test(line.trim())) {
+        inCodeBlock = !inCodeBlock;
+        rendered.push(line);
+        continue;
+      }
+      rendered.push(inCodeBlock ? line : `${line}  `);
+    }
+
+    return rendered.join("\n");
   }
 
   /**
