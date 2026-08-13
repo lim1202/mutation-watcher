@@ -165,12 +165,13 @@ export function formatDiff(diffResult: DiffResult, contextLines = 3): string {
 export function getChangeSummary(diffResult: DiffResult): string {
   const parts: string[] = [];
 
-  if (diffResult.summary.added > 0) {
-    parts.push(`+${diffResult.summary.added} lines`);
-  }
-
+  // Match git diff style: removed lines come before added lines
   if (diffResult.summary.removed > 0) {
     parts.push(`-${diffResult.summary.removed} lines`);
+  }
+
+  if (diffResult.summary.added > 0) {
+    parts.push(`+${diffResult.summary.added} lines`);
   }
 
   if (parts.length === 0) {
