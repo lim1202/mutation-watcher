@@ -115,12 +115,10 @@ export class Engine {
     // Run check
     const monitorResult = await monitor.check();
 
-    // Detect changes
-    const previousHash = previousState?.lastHash ?? null;
-    const changeResult = this.changeDetector.detectFromHash(
-      previousHash,
-      monitorResult.content ?? ""
-    );
+    // Detect changes by diffing against the last stored content so the
+    // notification can include a change summary and diff text
+    const previousContent = previousState?.lastContent ?? null;
+    const changeResult = this.changeDetector.detect(previousContent, monitorResult.content ?? "");
 
     // Create new state
     const newState = createTargetState(monitorResult, previousState);
