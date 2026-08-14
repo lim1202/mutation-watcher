@@ -67,7 +67,10 @@ export class ApiMonitor extends BaseMonitor {
         dataType: Array.isArray(extractedData) ? "array" : typeof extractedData,
       });
     } catch (error) {
-      const errorMessage = error instanceof Error ? error.message : String(error);
+      const errorMessage =
+        error instanceof Error && error.message.trim()
+          ? error.message
+          : `Request failed for ${this.url}: ${String(error) || "unknown error"}`;
       logger.debug(`API check failed for ${this.id}: ${errorMessage}`);
       return this.createErrorResult(errorMessage, Date.now() - startTime);
     }
