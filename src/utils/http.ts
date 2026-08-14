@@ -127,11 +127,19 @@ export async function httpGet(url: string, options: HttpOptions = {}): Promise<H
         };
       }
 
-      throw new HttpError(lastError?.message ?? "Unknown HTTP error", lastError?.code, url);
+      throw new HttpError(
+        lastError?.message?.trim() || lastError?.code || "Unknown HTTP error",
+        lastError?.code,
+        url
+      );
     }
   }
 
-  throw new HttpError(lastError?.message ?? "Max retries exceeded", lastError?.code, url);
+  throw new HttpError(
+    lastError?.message?.trim() || lastError?.code || "Max retries exceeded",
+    lastError?.code,
+    url
+  );
 }
 
 /**
@@ -202,11 +210,19 @@ export async function httpPost(
         };
       }
 
-      throw new HttpError(lastError?.message ?? "Unknown HTTP error", lastError?.code, url);
+      throw new HttpError(
+        lastError?.message?.trim() || lastError?.code || "Unknown HTTP error",
+        lastError?.code,
+        url
+      );
     }
   }
 
-  throw new HttpError(lastError?.message ?? "Max retries exceeded", lastError?.code, url);
+  throw new HttpError(
+    lastError?.message?.trim() || lastError?.code || "Max retries exceeded",
+    lastError?.code,
+    url
+  );
 }
 
 /**
