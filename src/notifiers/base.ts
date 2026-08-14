@@ -94,7 +94,7 @@ export abstract class BaseNotifier<TConfig = unknown> {
     if (!monitorResult.success) {
       lines.push("");
       lines.push("**Error:**");
-      lines.push(monitorResult.error ?? "Unknown error");
+      lines.push(monitorResult.error?.trim() || "Unknown error");
     } else if (hasChanges && changeResult) {
       lines.push("");
       lines.push("**Change Summary:**");
