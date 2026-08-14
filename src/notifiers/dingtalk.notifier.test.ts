@@ -88,6 +88,29 @@ describe("DingTalkNotifier markdown", () => {
     expect(text).toContain("```diff\n- old line\n+ new line\n```");
   });
 
+  it("falls back to a readable message when the error text is empty", async () => {
+    httpPost.mockResolvedValue({ data: { errcode: 0, errmsg: "ok" } });
+
+    const payload = makePayload({
+      monitorResult: {
+        targetId: "test",
+        targetName: "Test Target",
+        url: "https://example.com",
+        timestamp: "2026-08-13T00:00:00.000Z",
+        success: false,
+        error: "",
+        content: "",
+        contentHash: "",
+        duration: 0,
+      },
+    });
+
+    await makeNotifier().send(payload);
+
+    const text = sentMarkdownText();
+    expect(text).toContain("**Error:**  \nUnknown error");
+  });
+
   it("truncates oversized diffs and appends a full-content hint", async () => {
     httpPost.mockResolvedValue({ data: { errcode: 0, errmsg: "ok" } });
 
