@@ -7,7 +7,7 @@ describe("getChangeSummary", () => {
 
     expect(diff.summary.removed).toBe(1);
     expect(diff.summary.added).toBe(1);
-    expect(getChangeSummary(diff)).toBe("-1 lines, +1 lines");
+    expect(getChangeSummary(diff)).toBe("Removed: 1 line, Added: 1 line");
   });
 });
 
@@ -26,6 +26,9 @@ describe("truncateDiffForNotification", () => {
 
     expect(result.truncated).toBe(true);
     expect(result.text.split("\n")).toHaveLength(10);
+    expect(result.text).toContain("- line 0");
+    expect(result.text).toContain("- line 49");
+    expect(result.text).toContain("41 lines omitted");
   });
 
   it("truncates by character budget when it exceeds the limit", () => {
@@ -35,5 +38,30 @@ describe("truncateDiffForNotification", () => {
 
     expect(result.truncated).toBe(true);
     expect(result.text.length).toBeLessThanOrEqual(100);
+    expect(
+      result.text.split("\n").every((line) => line === "- xyz" || line.includes("omitted"))
+    ).toBe(true);
+  });
+
+  it("never cuts a line in the middle and preserves both ends", () => {
+    const sourceLines = [
+      `- ${"a".repeat(30)}`,
+      `  ${"x".repeat(30)}`,
+      `  ${"y".repeat(30)}`,
+      `  ${"z".repeat(30)}`,
+      `+ ${"b".repeat(30)}`,
+    ];
+    const diffText = sourceLines.join("\n");
+
+    const result = truncateDiffForNotification(diffText, { maxChars: 100 });
+
+    expect(result.truncated).toBe(true);
+    expect(result.text).toContain(sourceLines[0]);
+    expect(result.text).toContain(sourceLines.at(-1));
+    expect(
+      result.text
+        .split("\n")
+        .every((line) => sourceLines.includes(line) || line.includes("omitted"))
+    ).toBe(true);
   });
 });

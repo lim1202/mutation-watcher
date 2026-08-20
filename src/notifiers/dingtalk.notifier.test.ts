@@ -85,7 +85,7 @@ describe("DingTalkNotifier markdown", () => {
 
     const text = sentMarkdownText();
     expect(text).toContain("**Change Summary:**  \ncontent changed");
-    expect(text).toContain("```diff\n- old line\n+ new line\n```");
+    expect(text).toContain("```diff\n🔴 Removed | old line\n🟢 Added | new line\n```");
   });
 
   it("falls back to a readable message when the error text is empty", async () => {
@@ -130,7 +130,8 @@ describe("DingTalkNotifier markdown", () => {
 
     const text = sentMarkdownText();
     expect(text).toContain("⚠️ 变更较多，完整内容见：https://example.com");
-    expect(text).toContain("+ line 39"); // last kept line
-    expect(text).not.toContain("+ line 49"); // tail was cut
+    expect(text).toContain("🟢 Added | line 0");
+    expect(text).toContain("🟢 Added | line 49");
+    expect(text).toContain("lines omitted");
   });
 });

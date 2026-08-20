@@ -171,16 +171,55 @@ export function truncateDiffForNotification(
   const maxChars = options.maxChars ?? 800;
 
   const lines = diffText.split("\n");
-  const lineLimited = lines.slice(0, maxLines);
-  let text = lineLimited.join("\n");
-  let truncated = lines.length > maxLines;
-
-  if (text.length > maxChars) {
-    text = text.slice(0, maxChars);
-    truncated = true;
+  const original = lines.join("\n");
+  if (lines.length <= maxLines && original.length <= maxChars) {
+    return { text: original, truncated: false };
   }
 
-  return { text, truncated };
+  // Keep complete lines from both ends. The tail commonly contains closing
+  // JSON braces, so retaining it avoids making a truncated object look
+  // accidentally malformed. Never slice through a line.
+  const retainedLineLimit = Math.max(0, Math.min(lines.length - 1, maxLines - 1));
+  let headCount = Math.ceil(retainedLineLimit / 2);
+  let tailCount = Math.floor(retainedLineLimit / 2);
+
+  const render = () => {
+    const omitted = lines.length - headCount - tailCount;
+    const noun = omitted === 1 ? "line" : "lines";
+    return [
+      ...lines.slice(0, headCount),
+      `... ${omitted} ${noun} omitted ...`,
+      ...(tailCount > 0 ? lines.slice(-tailCount) : []),
+    ].join("\n");
+  };
+
+  let text = render();
+  while (text.length > maxChars && headCount + tailCount > 0) {
+    if (headCount > 1 && tailCount <= 1) {
+      headCount--;
+    } else if (tailCount > 1 && headCount <= 1) {
+      tailCount--;
+    } else if (headCount > 0 && tailCount > 0) {
+      const headLength = lines[headCount - 1]?.length ?? 0;
+      const tailLength = lines[lines.length - tailCount]?.length ?? 0;
+      if (headLength >= tailLength) {
+        headCount--;
+      } else {
+        tailCount--;
+      }
+    } else if (headCount > 0) {
+      headCount--;
+    } else {
+      tailCount--;
+    }
+    text = render();
+  }
+
+  if (text.length > maxChars) {
+    text = maxChars >= 3 ? "..." : "";
+  }
+
+  return { text, truncated: true };
 }
 
 /**
@@ -189,13 +228,14 @@ export function truncateDiffForNotification(
 export function getChangeSummary(diffResult: DiffResult): string {
   const parts: string[] = [];
 
-  // Match git diff style: removed lines come before added lines
   if (diffResult.summary.removed > 0) {
-    parts.push(`-${diffResult.summary.removed} lines`);
+    const count = diffResult.summary.removed;
+    parts.push(`Removed: ${count} ${count === 1 ? "line" : "lines"}`);
   }
 
   if (diffResult.summary.added > 0) {
-    parts.push(`+${diffResult.summary.added} lines`);
+    const count = diffResult.summary.added;
+    parts.push(`Added: ${count} ${count === 1 ? "line" : "lines"}`);
   }
 
   if (parts.length === 0) {
