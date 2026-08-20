@@ -8,7 +8,7 @@ describe("ChangeDetector.detect", () => {
     const result = detector.detect("old line\nshared line\n", "new line\nshared line\n");
 
     expect(result.hasChanges).toBe(true);
-    expect(result.changeSummary).toBe("-1 lines, +1 lines");
+    expect(result.changeSummary).toBe("Removed: 1 line, Added: 1 line");
     expect(result.diffText).toContain("- old line");
     expect(result.diffText).toContain("+ new line");
   });

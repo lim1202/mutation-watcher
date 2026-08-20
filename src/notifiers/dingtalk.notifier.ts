@@ -190,7 +190,17 @@ export class DingTalkNotifier extends BaseNotifier<DingTalkConfig> {
         rendered.push(line);
         continue;
       }
-      rendered.push(inCodeBlock ? line : `${line}  `);
+      if (inCodeBlock) {
+        if (line.startsWith("- ")) {
+          rendered.push(`🔴 Removed | ${line.slice(2)}`);
+        } else if (line.startsWith("+ ")) {
+          rendered.push(`🟢 Added | ${line.slice(2)}`);
+        } else {
+          rendered.push(line);
+        }
+      } else {
+        rendered.push(`${line}  `);
+      }
     }
 
     return rendered.join("\n");
