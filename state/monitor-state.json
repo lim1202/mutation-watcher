@@ -1,28 +1,28 @@
 {
   "version": "1.0",
-  "updatedAt": "2026-09-13T05:08:51.067Z",
+  "updatedAt": "2026-09-13T10:28:01.576Z",
   "targets": {
     "crimsonwitch-zenless": {
       "id": "crimsonwitch-zenless",
-      "lastCheck": "2026-09-13T05:08:51.065Z",
+      "lastCheck": "2026-09-13T10:28:01.531Z",
       "lastHash": "cf5385baf81a113d72cc82153f6249b8b4fe3e88114b6c1089121982814fc006",
       "lastContent": "[\n  {\n    \"title\": \"ZZZVOID32\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Zenless_Zone_Zero#ZZZVOID32\",\n    \"description\": \"Polychrome x20 — Denny x2222\",\n    \"pubDate\": \"Sat, 12 Sep 2026 09:48:44 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Zenless_Zone_Zero#ZZZVOID32\"\n  },\n  {\n    \"title\": \"ZZZINK32\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Zenless_Zone_Zero#ZZZINK32\",\n    \"description\": \"Polychrome x20 — Denny x2222\",\n    \"pubDate\": \"Thu, 10 Sep 2026 21:59:34 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Zenless_Zone_Zero#ZZZINK32\"\n  },\n  {\n    \"title\": \"ZZZGRIND32\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Zenless_Zone_Zero#ZZZGRIND32\",\n    \"description\": \"Polychrome x20 — Denny x2222\",\n    \"pubDate\": \"Thu, 10 Sep 2026 15:13:55 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Zenless_Zone_Zero#ZZZGRIND32\"\n  },\n  {\n    \"title\": \"ZENLESSGIFT\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Zenless_Zone_Zero#ZENLESSGIFT\",\n    \"description\": \"Polychrome x50 — Official Investigator Log x2 — W-Engine Power Supply x3 — Bangboo Algorithm Module x1\",\n    \"pubDate\": \"Thu, 04 Jul 2024 00:00:00 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Zenless_Zone_Zero#ZENLESSGIFT\"\n  }\n]",
       "lastSuccess": true,
       "lastError": null,
-      "checkCount": 2648,
+      "checkCount": 2649,
       "changeCount": 21,
       "lastChangeAt": "2026-09-12T11:57:14.601Z"
     },
     "crimsonwitch-genshin": {
       "id": "crimsonwitch-genshin",
-      "lastCheck": "2026-09-13T05:08:51.064Z",
-      "lastHash": "e99b1fab466bf34177e35c309d5431724dd3346af808d1ec70d2940982ed7d34",
-      "lastContent": "[\n  {\n    \"title\": \"Rekviem\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Genshin_Impact#Rekviem\",\n    \"description\": \"Primogem x100 — Mystic Enhancement Ore x10\",\n    \"pubDate\": \"Sat, 12 Sep 2026 12:00:00 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Genshin_Impact#Rekviem\"\n  },\n  {\n    \"title\": \"Vesna0923\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Genshin_Impact#Vesna0923\",\n    \"description\": \"Primogem x100 — Hero's Wit x5\",\n    \"pubDate\": \"Sat, 12 Sep 2026 12:00:00 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Genshin_Impact#Vesna0923\"\n  },\n  {\n    \"title\": \"PrimaDonna\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Genshin_Impact#PrimaDonna\",\n    \"description\": \"Primogem x100 — Mora x50000\",\n    \"pubDate\": \"Sat, 12 Sep 2026 12:00:00 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Genshin_Impact#PrimaDonna\"\n  },\n  {\n    \"title\": \"YOAL3V36XHS7\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Genshin_Impact#YOAL3V36XHS7\",\n    \"description\": \"Mora x10000 — Adventurer's Experience x10 — Fine Enhancement Ore x5 — Jueyun Chili Chicken x5 — Stir-Fried Fish Noodles x5\",\n    \"pubDate\": \"Thu, 03 Sep 2026 12:00:00 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Genshin_Impact#YOAL3V36XHS7\"\n  },\n  {\n    \"title\": \"BALLETCOLLAB\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Genshin_Impact#BALLETCOLLAB\",\n    \"description\": \"Primogem x30 — Mora x10000 — Hero's Wit x3 — Mystic Enhancement Ore x3\",\n    \"pubDate\": \"Sun, 16 Aug 2026 14:38:05 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Genshin_Impact#BALLETCOLLAB\"\n  },\n  {\n    \"title\": \"2BJ64QRZ7RT8\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Genshin_Impact#2BJ64QRZ7RT8\",\n    \"description\": \"Primogem x60 — Adventurer's Experience x5\",\n    \"pubDate\": \"Fri, 31 Jul 2026 16:43:57 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Genshin_Impact#2BJ64QRZ7RT8\"\n  }\n]",
+      "lastCheck": "2026-09-13T10:28:01.576Z",
+      "lastHash": "750121c3e1c200e5508d4c5b1b64a5eddd9e3d429680d28cd0b258e28931f209",
+      "lastContent": "[\n  {\n    \"title\": \"Y6JYMKV6JKSL\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Genshin_Impact#Y6JYMKV6JKSL\",\n    \"description\": \"Primogem x60 — Adventurer's Experience x5\",\n    \"pubDate\": \"Sun, 13 Sep 2026 07:33:58 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Genshin_Impact#Y6JYMKV6JKSL\"\n  },\n  {\n    \"title\": \"Rekviem\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Genshin_Impact#Rekviem\",\n    \"description\": \"Primogem x100 — Mystic Enhancement Ore x10\",\n    \"pubDate\": \"Sat, 12 Sep 2026 12:00:00 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Genshin_Impact#Rekviem\"\n  },\n  {\n    \"title\": \"Vesna0923\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Genshin_Impact#Vesna0923\",\n    \"description\": \"Primogem x100 — Hero's Wit x5\",\n    \"pubDate\": \"Sat, 12 Sep 2026 12:00:00 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Genshin_Impact#Vesna0923\"\n  },\n  {\n    \"title\": \"PrimaDonna\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Genshin_Impact#PrimaDonna\",\n    \"description\": \"Primogem x100 — Mora x50000\",\n    \"pubDate\": \"Sat, 12 Sep 2026 12:00:00 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Genshin_Impact#PrimaDonna\"\n  },\n  {\n    \"title\": \"YOAL3V36XHS7\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Genshin_Impact#YOAL3V36XHS7\",\n    \"description\": \"Mora x10000 — Adventurer's Experience x10 — Fine Enhancement Ore x5 — Jueyun Chili Chicken x5 — Stir-Fried Fish Noodles x5\",\n    \"pubDate\": \"Thu, 03 Sep 2026 12:00:00 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Genshin_Impact#YOAL3V36XHS7\"\n  },\n  {\n    \"title\": \"BALLETCOLLAB\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Genshin_Impact#BALLETCOLLAB\",\n    \"description\": \"Primogem x30 — Mora x10000 — Hero's Wit x3 — Mystic Enhancement Ore x3\",\n    \"pubDate\": \"Sun, 16 Aug 2026 14:38:05 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Genshin_Impact#BALLETCOLLAB\"\n  },\n  {\n    \"title\": \"2BJ64QRZ7RT8\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Genshin_Impact#2BJ64QRZ7RT8\",\n    \"description\": \"Primogem x60 — Adventurer's Experience x5\",\n    \"pubDate\": \"Fri, 31 Jul 2026 16:43:57 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Genshin_Impact#2BJ64QRZ7RT8\"\n  }\n]",
       "lastSuccess": true,
       "lastError": null,
-      "checkCount": 2648,
-      "changeCount": 43,
-      "lastChangeAt": "2026-09-12T15:10:25.440Z"
+      "checkCount": 2649,
+      "changeCount": 44,
+      "lastChangeAt": "2026-09-13T10:28:01.576Z"
     }
   }
 }
