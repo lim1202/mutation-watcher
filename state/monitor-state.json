@@ -1,26 +1,26 @@
 {
   "version": "1.0",
-  "updatedAt": "2026-10-29T01:07:38.465Z",
+  "updatedAt": "2026-10-29T07:26:34.955Z",
   "targets": {
     "crimsonwitch-zenless": {
       "id": "crimsonwitch-zenless",
-      "lastCheck": "2026-10-29T01:07:38.428Z",
+      "lastCheck": "2026-10-29T07:26:34.950Z",
       "lastHash": "20f5e0c43759d3dcbda27c2da57591e0116bc4a730ed22407aad19218cc6a5dd",
       "lastContent": "[\n  {\n    \"title\": \"LEVELUP33\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Zenless_Zone_Zero#LEVELUP33\",\n    \"description\": \"Polychrome x20 — Denny x2222\",\n    \"pubDate\": \"Sun, 25 Oct 2026 00:51:22 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Zenless_Zone_Zero#LEVELUP33\"\n  },\n  {\n    \"title\": \"INKSHIFT33\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Zenless_Zone_Zero#INKSHIFT33\",\n    \"description\": \"Polychrome x20 — Denny x2222\",\n    \"pubDate\": \"Sat, 24 Oct 2026 18:49:17 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Zenless_Zone_Zero#INKSHIFT33\"\n  },\n  {\n    \"title\": \"HOLLOWRUN33\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Zenless_Zone_Zero#HOLLOWRUN33\",\n    \"description\": \"Polychrome x20 — Denny x2222\",\n    \"pubDate\": \"Sat, 24 Oct 2026 04:17:58 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Zenless_Zone_Zero#HOLLOWRUN33\"\n  },\n  {\n    \"title\": \"SUNBRINGER\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Zenless_Zone_Zero#SUNBRINGER\",\n    \"description\": \"Polychrome x30\",\n    \"pubDate\": \"Sat, 24 Oct 2026 04:17:33 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Zenless_Zone_Zero#SUNBRINGER\"\n  },\n  {\n    \"title\": \"ZENLESSGIFT\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Zenless_Zone_Zero#ZENLESSGIFT\",\n    \"description\": \"Polychrome x50 — Official Investigator Log x2 — W-Engine Power Supply x3 — Bangboo Algorithm Module x1\",\n    \"pubDate\": \"Thu, 04 Jul 2024 00:00:00 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Zenless_Zone_Zero#ZENLESSGIFT\"\n  }\n]",
       "lastSuccess": true,
       "lastError": null,
-      "checkCount": 2898,
+      "checkCount": 2899,
       "changeCount": 26,
       "lastChangeAt": "2026-10-25T04:01:04.615Z"
     },
     "crimsonwitch-genshin": {
       "id": "crimsonwitch-genshin",
-      "lastCheck": "2026-10-29T01:07:38.464Z",
+      "lastCheck": "2026-10-29T07:26:34.953Z",
       "lastHash": "059559d3b0c45f3005969a8826b8457377d497be87c5eb460b32d9579b81a386",
       "lastContent": "[\n  {\n    \"title\": \"PJ2KEBRAYSRM\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Genshin_Impact#PJ2KEBRAYSRM\",\n    \"description\": \"Primogem x60 — Adventurer's Experience x5\",\n    \"pubDate\": \"Fri, 23 Oct 2026 13:26:57 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Genshin_Impact#PJ2KEBRAYSRM\"\n  },\n  {\n    \"title\": \"OKTCV81F9H8D\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Genshin_Impact#OKTCV81F9H8D\",\n    \"description\": \"Mora x10000 — Adventurer's Experience x10 — Fine Enhancement Ore x5 — Jueyun Chili Chicken x5 — Stir-Fried Fish Noodles x5\",\n    \"pubDate\": \"Wed, 14 Oct 2026 04:32:45 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Genshin_Impact#OKTCV81F9H8D\"\n  },\n  {\n    \"title\": \"6LS3F3LS5K87\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Genshin_Impact#6LS3F3LS5K87\",\n    \"description\": \"Primogem x20 — Geode of Replication x160\",\n    \"pubDate\": \"Fri, 02 Oct 2026 11:59:03 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Genshin_Impact#6LS3F3LS5K87\"\n  },\n  {\n    \"title\": \"OPERACOLLAB\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Genshin_Impact#OPERACOLLAB\",\n    \"description\": \"Primogem x30 — Mora x20000 — Hero's Wit x2\",\n    \"pubDate\": \"Tue, 29 Sep 2026 04:56:15 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Genshin_Impact#OPERACOLLAB\"\n  },\n  {\n    \"title\": \"PNKZ3WLNN8G6\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Genshin_Impact#PNKZ3WLNN8G6\",\n    \"description\": \"Teachings of Charity x5 — Teachings of Fortitude x5 — Teachings of Glory x5\",\n    \"pubDate\": \"Fri, 25 Sep 2026 13:57:03 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Genshin_Impact#PNKZ3WLNN8G6\"\n  },\n  {\n    \"title\": \"DATG5HG1PL89\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Genshin_Impact#DATG5HG1PL89\",\n    \"description\": \"Mora x10000 — Adventurer's Experience x10 — Fine Enhancement Ore x5 — Jueyun Chili Chicken x5 — Stir-Fried Fish Noodles x5\",\n    \"pubDate\": \"Thu, 24 Sep 2026 13:36:47 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Genshin_Impact#DATG5HG1PL89\"\n  },\n  {\n    \"title\": \"EPIC2026\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Genshin_Impact#EPIC2026\",\n    \"description\": \"Primogem x40 — Mora x20000 — Hero's Wit x5\",\n    \"pubDate\": \"Wed, 23 Sep 2026 14:49:28 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Genshin_Impact#EPIC2026\"\n  },\n  {\n    \"title\": \"Y6JYMKV6JKSL\",\n    \"link\": \"https://www.crimsonwitch.com/codes/Genshin_Impact#Y6JYMKV6JKSL\",\n    \"description\": \"Primogem x60 — Adventurer's Experience x5\",\n    \"pubDate\": \"Sun, 13 Sep 2026 07:33:58 GMT\",\n    \"guid\": \"https://www.crimsonwitch.com/codes/Genshin_Impact#Y6JYMKV6JKSL\"\n  }\n]",
       "lastSuccess": true,
       "lastError": null,
-      "checkCount": 2898,
+      "checkCount": 2899,
       "changeCount": 56,
       "lastChangeAt": "2026-10-26T18:47:19.693Z"
     }
