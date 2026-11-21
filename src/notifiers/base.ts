@@ -108,7 +108,7 @@ export abstract class BaseNotifier<TConfig = unknown> {
         lines.push(text);
         lines.push("```");
         if (truncated) {
-          lines.push(`⚠️ 变更较多，完整内容见：${linkUrl}`);
+          lines.push(`⚠️ Changes truncated. View full content: ${linkUrl}`);
         }
       }
     }
