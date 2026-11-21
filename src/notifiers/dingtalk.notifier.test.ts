@@ -129,7 +129,7 @@ describe("DingTalkNotifier markdown", () => {
     await makeNotifier().send(payload);
 
     const text = sentMarkdownText();
-    expect(text).toContain("⚠️ 变更较多，完整内容见：https://example.com");
+    expect(text).toContain("⚠️ Changes truncated. View full content: https://example.com");
     expect(text).toContain("🟢 Added | line 0");
     expect(text).toContain("🟢 Added | line 49");
     expect(text).toContain("lines omitted");
